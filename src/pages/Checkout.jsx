@@ -126,7 +126,7 @@ const Checkout = () => {
                           type="text"
                           className="form-control"
                           id="address"
-                          placeholder="1234 Main St"
+                          placeholder="House Number, Street Address"
                           required
                         />
                         <div className="invalid-feedback">
@@ -155,6 +155,11 @@ const Checkout = () => {
                         <select className="form-select" id="country" required>
                           <option value="">Choose...</option>
                           <option>India</option>
+                          <option>Sri lanka</option>
+                          <option>USA</option>
+                          <option>Russia</option>
+                          <option>Ireland</option>
+                          <option>United Kingdom</option>
                         </select>
                         <div className="invalid-feedback">
                           Please select a valid country.
@@ -168,7 +173,13 @@ const Checkout = () => {
                         <br />
                         <select className="form-select" id="state" required>
                           <option value="">Choose...</option>
-                          <option>Punjab</option>
+                          <option>Uttarakhand</option>
+                          <option>Uttar Pradesh</option>
+                          <option>Haryana</option>
+                          <option>Sikkim</option>
+                          <option>Himachal Pradesh</option>
+                          <option>Maharashtra</option>
+                          <option>Gujrat</option>
                         </select>
                         <div className="invalid-feedback">
                           Please provide a valid state.
