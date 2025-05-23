@@ -9,7 +9,8 @@ const Home = () => {
             className="card-img img-fluid"
             src="./assets/sup.jpg"
             alt="Card"
-            height={500}
+                  style={{ height: '700px',  objectFit: 'cover' }}  // Adjust size using inline styles
+
           />
           <div className="card-img-overlay d-flex align-items-center">
             <div className="container">
